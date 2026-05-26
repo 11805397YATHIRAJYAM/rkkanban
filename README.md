@@ -1,26 +1,19 @@
 # GUVI Kanban Task Manager
 
-Netlify-ready React app without Vite.
+React Kanban application without Vite. This version runs using npm start.
 
-## Local run
+## Commands
 
 ```bash
 npm install
 npm start
 ```
 
-## Netlify build settings
+## Features
 
-Build command:
-
-```bash
-npm run build
-```
-
-Publish directory:
-
-```bash
-build
-```
-
-The ZIP has `package.json` at root and includes `netlify.toml`.
+- Create, edit, and delete tasks
+- Drag and drop tasks between To Do, In Progress, and Done
+- Context API global state
+- localStorage persistence
+- TailwindCSS responsive design
+- GUVI background watermark
